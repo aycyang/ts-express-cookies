@@ -3,8 +3,8 @@ import Cookies from 'cookies'
 
 const app = express()
 
-app.use(Cookies.express())
+app.use(Cookies.express(['mykey']))
 
 app.get('/', (req, res) => {
-  res.cookie.set('a', 'b')
+  res.cookies.set('a', 'b')
 })
