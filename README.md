@@ -1,5 +1,6 @@
 This code is following basic instructions at <https://www.npmjs.com/package/cookies#cookiesexpresskeys>:
 
+> ### Cookies.express(keys)
 > This adds cookie support as a Connect middleware layer for use in Express apps, allowing inbound cookies to be read using `req.cookies.get` and outbound cookies to be set using `res.cookies.set`.
 
 But I can't seem to fix this type error.
